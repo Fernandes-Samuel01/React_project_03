@@ -22,7 +22,7 @@ function App() {
     setPassword(pass);
   }, [length, numAllowed, charAllowed, setPassword])
 
-  useEffect(() => {``
+  useEffect(() => {
     passwordGenerator();
   }, [length, numAllowed, charAllowed, passwordGenerator])
 
